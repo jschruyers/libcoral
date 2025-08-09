@@ -13,7 +13,7 @@ with C++](https://coral.ai/docs/edgetpu/tflite-cpp/) and check out the
 Be sure to clone this repo with submodules:
 
 ```
-git clone --recurse-submodules https://github.com/google-coral/libcoral
+git clone --recurse-submodules https://github.com/jschruyers/libcoral.git
 ```
 
 If you already cloned without the submodules. You can add them with this:
@@ -76,7 +76,7 @@ You need to install the following software:
 1.  Bazel for macOS from https://github.com/bazelbuild/bazel/releases
 1.  MacPorts from https://www.macports.org/install.php
 1.  Ports of `python` interpreter and `numpy` library: `sudo port install
-    python38 python39 python310 python311 py38-numpy py39-numpy py310-numpy python311-numpy`
+python38 python39 python310 python311 py38-numpy py39-numpy py310-numpy python311-numpy`
 1.  Port of `libusb` library: `sudo port install libusb`
 
 Right after that all normal `make` commands should work as usual. You can run
